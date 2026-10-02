@@ -1,7 +1,11 @@
-simple PHP "Hello World" application running in Docker
+# PHP Hello World with Docker
 
-Run the Container 
-docker compose up -d
+A simple PHP "Hello World" application running in Docker.
 
-Stop the container
-docker compose down
+## Project Structure
+
+```text
+nama-project/
+├── docker-compose.yml
+└── src/
+    └── index.php
